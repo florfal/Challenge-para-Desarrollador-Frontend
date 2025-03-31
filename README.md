@@ -1,29 +1,56 @@
-# pokemon-app
+# Challenge para Desarrollador Frontend
 
-This template should help get you started developing with Vue 3 in Vite.
+Este proyecto es una aplicación web construida con Vue 3 y Vuetify, enfocada en visualizar y comentar Pokemones.
 
-## Recommended IDE Setup
+## Requisitos previos
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+Asegúrate de tener instalado lo siguiente en tu sistema:
 
-## Customize configuration
+- [Node.js](https://nodejs.org/) (versión 16 o superior recomendada)
+- [npm](https://www.npmjs.com/) o [yarn](https://yarnpkg.com/)
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## Instalación
 
-## Project Setup
+Sigue estos pasos para configurar y ejecutar el proyecto localmente:
 
-```sh
-npm install
-```
+1. Clona el repositorio:
+   ```sh
+   git clone https://github.com/florfal/Challenge-para-Desarrollador-Frontend.git
+   ```
+2. Accede al directorio del proyecto:
+   ```sh
+   cd pokemno-app
+   ```
+3. Instala las dependencias:
+   ```sh
+   npm install
+   ```
+   o si usas yarn:
+   ```sh
+   yarn install
+   ```
 
-### Compile and Hot-Reload for Development
+## Ejecución del proyecto
+
+Para iniciar el entorno de desarrollo, ejecuta:
 
 ```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
+O si usas yarn:
 
 ```sh
-npm run build
+yarn dev
 ```
+
+Esto iniciará un servidor local y podrás acceder a la aplicación en tu navegador en `http://localhost:5173/` (o el puerto que Vue indique en la consola).
+
+## Notas adicionales
+
+- El proyecto usa Vue 3 con Composition API.
+- Vuetify está configurado como librería de UI.
+- Asegúrate de revisar `src/config` o archivos relacionados para configuraciones adicionales.
+
+Si tienes dudas, revisa la documentación oficial de [Vue](https://vuejs.org/) o [Vuetify](https://vuetifyjs.com/).
+
